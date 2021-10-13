@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+.addtask {
+    padding: 0 30px;
+}
+.addtask h1 {
+    font-family: "Caveat", cursive;
+    font-size: 54px;
+    margin: 0;
+    padding-top: 10px;
+    border-bottom: 2px #845ec2 solid;
+    text-shadow: 2px 2px #845ec2;
+}
+.addtask form {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtask input {
+    width: 50%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: "Acme", sans-serif;
+    font-size: 24px;
+}
+.addtask button {
+    background-color: transparent;
+    border: none;
+}
+.addtask .fad {
+    color: blue;
+    font-size: 40px;
+}

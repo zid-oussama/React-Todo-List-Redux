@@ -1,0 +1,24 @@
+.listTask .btns {
+    width: 50%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.listTask .btns button {
+    width: 120px;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 15%;
+    background-color: transparent;
+    font-family: "Acme", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.listTask .myList {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
